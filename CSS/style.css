@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+body {
+  background-color: rgb(36, 35, 35);
+  color: azure;
+  height: 100vh;
+}
+header {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.btn {
+  padding: 12px;
+  width: 150px;
+  margin: 10px;
+  font-size: 1.5em;
+  border: none;
+  cursor: pointer;
+}
+input {
+  padding: 16px;
+  width: 150px;
+  margin: 10px;
+  text-align: center;
+  font-size: 2em;
+  background-color: transparent;
+  border: 1px solid azure;
+  color: azure;
+  cursor: pointer;
+}
+input::placeholder {
+  color: azure;
+}
+main {
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  margin-top: 40px;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+}
+div {
+  background-color: azure;
+  height: 60px;
+  width: 100px;
+  margin: auto;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+}
+p {
+  margin-bottom: 16px;
+}
+.win {
+  background-color: rgb(16, 208, 16);
+}
+.lost {
+  background-color: brown;
+}
+@media (max-width: 550px) {
+  main {
+    gap: 50px;
+    font-size: 0.7em;
+  }
+}
